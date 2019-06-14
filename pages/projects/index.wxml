@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="project-table">
+    <view class="project-list" hover-class="active" wx:for="{{projects}}" wx:key="{{item.id}}">
+      {{item.name}}
+    </view>
+  </view>
+</view>

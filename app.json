@@ -1,0 +1,10 @@
+{
+  "pages": ["pages/projects/index"],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蕃茄时光",
+    "navigationBarBackgroundColor": "#212121",
+    "backgroundColor": "#212121"
+  },
+  "sitemapLocation": "sitemap.json"
+}

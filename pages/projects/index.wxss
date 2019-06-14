@@ -1,0 +1,15 @@
+/**index.wxss**/
+
+.project-table {
+  color: var(--primary-font-color);
+  flex: 1;
+}
+
+.project-list {
+  border-bottom: 1px solid var(--primary-border-color);
+  height: 200rpx;
+}
+
+.project-list.active {
+  background-color: bisque;
+}
