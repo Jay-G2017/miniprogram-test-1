@@ -1,0 +1,3 @@
+.project-detail-container {
+  color: var(--primary-font-color);
+}

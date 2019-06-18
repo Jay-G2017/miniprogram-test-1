@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/projects/index"],
+  "pages": ["pages/projects/index", "pages/project-detail/index"],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "蕃茄时光",

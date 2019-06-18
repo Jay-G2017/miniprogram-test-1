@@ -2,14 +2,20 @@
 
 .project-table {
   color: var(--primary-font-color);
-  flex: 1;
+  font-size: 34rpx;
+  font-weight: 400;
+}
+
+.project-list:first-child {
+  border-top: 1px solid var(--primary-border-color);
 }
 
 .project-list {
   border-bottom: 1px solid var(--primary-border-color);
-  height: 200rpx;
+  height: 100rpx;
+  padding: 20rpx;
 }
 
 .project-list.active {
-  background-color: bisque;
+  background-color: var(--primary-border-color);
 }

@@ -1,0 +1,3 @@
+<view class="project-detail-container">
+  <view>{{projectName}}</view>
+</view>

@@ -1,8 +1,10 @@
 <!-- index.wxml -->
 <view class="container">
   <view class="project-table">
-    <view class="project-list" hover-class="active" wx:for="{{projects}}" wx:key="{{item.id}}">
-      {{item.name}}
-    </view>
+    <block wx:for="{{projects}}" wx:key="{{item.id}}">
+      <navigator class="project-list" hover-class='active' url="/pages/project-detail/index?projectId={{item.id}}">
+        {{item.name}}
+      </navigator>
+    </block>
   </view>
 </view>
